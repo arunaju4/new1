@@ -5,36 +5,32 @@ body{
     font-family: 'Merriweather Sans', sans-serif;
     background-color: #F5F5F5;
    
+   
 }
 /* image name webdevelpoer start */
 .img{
-    width: 84.25rem;
+    width: 84.25em;
     height: auto;
     position: relative;
-    top: -10px;
+    top: -0.625em;
+    z-index: -1;
    
 }
-.name{
+.names{
     position: absolute;
-    top: 40px;
-    left: 560px;
-    margin: 0px auto;
-  
-
-
-   
-}  
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    
+}
 h1{
-    font-family: 'Sacramento', cursive;
-    font-size: 3rem;
-    margin: 0px auto;
-    color:#939399;
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  color:#939399;
+
 }
-.web{
-    margin-top: 0%;
-    font-size: 1rem;
-    margin: 0px auto;
-}
+ 
+
 /* image name webdevelpoer end */
 
 
@@ -42,6 +38,9 @@ h1{
 .container2{
     font-family: 'Open Sans', sans-serif;
     text-align: left;
+    width: auto;
+    
+
     
     
 }
@@ -49,8 +48,7 @@ h1{
     font-family: 'Sacramento', cursive;
     font-size: 3rem;
     margin-bottom: 0%;
-    color:     
-    #939399;
+    color:#939399;
 
 }
 .photo{
@@ -58,8 +56,8 @@ h1{
 }
 .skillsimage{
     border-radius: 100%;
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
     transition:  1s;
     
 
@@ -68,29 +66,29 @@ h1{
 hr{
     width: 80%;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 .skillsimage:hover{
-    width: 250px;
-    height: 250px;  
+    width: 15.625rem;
+    height: 15.625rem;  
 }
 .row1 {
     width: 50%;
-    height: 250px;
-    margin: 0px auto
+    height: 15.625rem;
+    margin: 0px auto;
     
     
 }
 .row2 {
     width: 50%;
-    height: 250px;
-    margin: 0px auto
+    height: 15.625rem;
+    margin: 0px auto;
     
 }
 .row3 {
     width: 50%;
-    height: 250px;
-    margin: 0px auto
+    height: 15.625rem;
+    margin: 0px auto;
     
 }
 
@@ -168,15 +166,82 @@ hr{
 
 
   /* reposive   */
-  @media only screen and (max-width: 600px){
-      .topone{
-          width:100%;
-          
-      }
-      
+ 
+  @media screen and (max-width: 480px) {
+    .img {
+      width: 100%;
+    }
   }
-
-
+  @media screen and (max-width: 810px) {
+    .img {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .names {
+      font-size: 1rem;
+      margin-top: 0px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .arun {
+      font-size: 3.5rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .img {
+      visibility:hidden ;
+    }
+  }
+ 
+ 
+  @media screen and (max-width: 480px) {
+    .skillsimage {
+      margin: 0px auto 20px auto;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .words {
+      width: 100% ;
+      margin: 0px 15%;
+      
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .row1 {
+      height: 100%;
+     
+     
+      
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .row2 {
+      height: 100%;
+      
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .row3 {
+      height: 100%;
+      
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .end {
+      font-size: 1rem;
+      top: 5px;
+      right: 20px;
+      
+    }
+  }
+ 
+ 
+ 
+ 
+  
+  
 
 
 
