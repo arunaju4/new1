@@ -167,7 +167,7 @@ hr{
 
   /* reposive   */
  
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 490px) {
     .img {
       width: 100%;
     }
@@ -177,38 +177,38 @@ hr{
       width: 100%;
     }
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 490px) {
     .names {
       font-size: 1rem;
       margin-top: 0px;
     }
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 490px) {
     .arun {
       font-size: 3.5rem;
     }
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 490px) {
     .img {
       visibility:hidden ;
     }
   }
  
  
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 490px) {
     .skillsimage {
       margin: 0px auto 20px auto;
       width: 100%;
     }
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 490px) {
     .words {
       width: 100% ;
       margin: 0px 15%;
       
     }
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 490px) {
     .row1 {
       height: 100%;
      
@@ -216,19 +216,19 @@ hr{
       
     }
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 490px) {
     .row2 {
       height: 100%;
       
     }
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 490px) {
     .row3 {
       height: 100%;
       
     }
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 490px) {
     .end {
       font-size: 1rem;
       top: 5px;
